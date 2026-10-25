@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="backend.js"></script>
+    <title>Login $ Sign Up page</title>
+  </head>
+  <body>
+    <div class="Canvas">
+      <div id="Gambar"></div>
+      <div class="divkanan">
+        <h2 id="TeksSign">Sign-In</h2>
+
+        <form id="authForm">
+          <input
+            type="text"
+            id="Inpuser"
+            placeholder="Username"
+            aria-label="Username"
+            required
+          />
+
+          <input
+            type="text"
+            name="NamaBlk"
+            id="NamaBlk"
+            placeholder="Nama Belakang"
+            aria-label="Nama Belakang"
+            hidden
+          />
+
+          <input
+            type="password"
+            id="inpPass"
+            placeholder="Password"
+            aria-label="Password"
+            required
+          />
+
+          <p id="pesan"></p>
+
+          <button type="submit" id="ConfirmBut">Konfirmasi</button>
+        </form>
+
+        <p id="switchText">Belum punya akun?</p>
+        <button type="button" id="switchBut">Sign-Up</button>
+      </div>
+    </div>
+  </body>
+</html>
